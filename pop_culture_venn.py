@@ -1,10 +1,18 @@
 from matplotlib import pyplot as plt
 import numpy as np
 from matplotlib_venn import *
+import pandas as pd
 
-A = set(['Alcohol','Parent Child','Man','Subsiduary','Spys']) #Archer
-B = set(['Alcohol','Parent Child','Man','Sidekick','Subsiduary','Science']) #Rick
-C = set(['Alcohol','Parent Child','Man','Sidekick','Acting'])  #BoJack
+T = pd.Series(['Alcohol','Parent Child','Man','Sidekick','Subsiduary'])
+A = pd.Series([1,1,1,0,1])
+R   = pd.Series([1,1,1,1,1])
+B = pd.Series([1,1,1,1,0])
+
+df = pd.DataFrame({'theme':T,'Archer':A,'Rick':R,'Bojack':B})
+
+A = set(df.theme[df.Archer==1]) #Archer
+B = set(df.theme[df.Rick==1]) #Rick
+C = set(df.theme[df.Bojack==1])  #BoJack
 
 v = venn3_unweighted([A,B,C], ('Archer', 'R&M', 'BoJack'))
 
