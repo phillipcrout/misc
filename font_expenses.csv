@@ -1,6 +1,6 @@
-Name,Divide,Value,Date,Comment
-Car,,395,All,Excluding Petrol and Lost Deposit atm
-Hotel(general expenses),,620,All,Approx
+Name,Divide,Value (Euro by default),Date,Comment
+Car,,£395,All,Excluding Petrol and Lost Deposit atm
+Hotel(general expenses),,£620,All,Approx
 Hotel specific (tbc) mac,,50,All,Approx
 Casino,,12.65,5th,
 Casino,,6.18,6th,Cereal
