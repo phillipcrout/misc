@@ -1,3 +1,5 @@
+## include a size and T as docopt
+
 import numpy as np
 # from numba import jit
 
