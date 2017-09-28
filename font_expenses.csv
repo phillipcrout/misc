@@ -1,21 +1,21 @@
-Name,Divide,Value (Euro by default),Date,Comment
-Car,,£395,All,Excluding Petrol and Lost Deposit atm
-Hotel(general expenses),,£620,All,Approx
-Hotel specific (tbc) mac,,50,All,Approx
+Name,Divide,Value,Date,Comment
+Car,MAN,£395,,Excluding Petrol and Lost Deposit atm
+Hotel(general expenses),MAN,£620,All,for units goes 5 ways
+Hotel specific,MAN,110.25,All,Approx
 Casino,4S,12.65,5th,
 Casino,4S,6.18,6th,Cereal
 Bread,5,60,To 14th,(12 x ~5)
 Casino,4S,60.75,6th,
 Casino,E,39.49,4th,Ella
 Casino,4S,37.88,4th,Ella'
-Casino,-,11.23,3rd,Alex paid (Towel)
+Casino,MAN,11.23,3rd,Alex paid (Towel)
 Toll,4E,5.70,1st,
 Super U,4E,24.06,1st,
 Casino,4E,99.72,2nd,
-Dinner,C,71,7th,(14 EP 13AM and 17S +10%)
+Dinner,MAN,71,7th,(14 EP 13AM and 17S +10%)
 Casino,4S,26.27,8th,Rest Day Brunch Work
-Petrol FR,,49,8th,Confirmed
-Baths,4S,25.50,8th,MJ paid; Ella paid for herself which is not included here
+Petrol FR,5,49,8th,Confirmed
+Baths,MAN,25.50,8th,MJ paid 4S tab; (Ella paid for herself)
 Casino,E,18.35,9th,Ella
 Casino,4S,36.65,9th,Ella'
 Casino,5,9.08,10th,Washing up stuff
@@ -23,7 +23,12 @@ Casino,E,12,11th, Ella
 Casino,4S,57,11th,Ella'
 Carre,5,5,12th, Roll
 Casino,4S,35.46,13th,Standard stuff
-Resource Transfer,,£100,14th, Ella to Crout
-Dinner2,C,93.50,14th, S14 A13 E25.50 MP 20.50 +tax
+Resource Transfer,MAN,£100,14th, Ella to Crout
+Dinner2,MAN,93.50,14th, S14 A13 E25.50 MP 20.50 +tax
 Casino,4S,22.27,15th,
-Fondu,MSE,30,15th, Ella paid
+Fondu,MAN,30,15th, Ella paid
+Perpi,MAN,70+5+5,16th,For Mac and Alex
+Sunda,MAN,3,17th,Scott and Ella
+Petrol,5,24,17th, Second FR fill up excluding some Perp tax
+Petrol,4E,31.71,18th, Final Fill up
+Tolls,4E,11.80,18th,
